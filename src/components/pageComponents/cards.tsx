@@ -14,7 +14,7 @@ interface SkillsProps {
 export function Skills({ Cards }: SkillsProps) {
     return (
     <div className="mt-2 relative">
-        {Cards.map((item) => (
+        {/* {Cards.map((item) => (
             <div className="flex mb-2">
                 <div className="font-bold text-gray-600">{item.title}</div>
                 <div className="text-xs ml-2 font-mono my-auto text-gray-200 flex flex-wrap  flex-1 gap-2 ">
@@ -25,7 +25,8 @@ export function Skills({ Cards }: SkillsProps) {
                     ))}
                 </div>
             </div>
-        ))}
+        ))} */}
+        random
 
     </div>
     )
